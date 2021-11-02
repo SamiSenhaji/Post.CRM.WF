@@ -16,7 +16,7 @@ namespace Post.CRM.WF
 
             try
             {
-                Entity target = (Entity)context.InputParameters["Target"];
+                Entity target = (Entity)context.InputParameters["Target"] ;
 
                 throw new Exception("The category of the opportunity is ICT and need Partnership Befor continue please Add at least One partner");
             }

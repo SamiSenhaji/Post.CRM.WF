@@ -33,7 +33,7 @@ namespace Post.CRM.WF
                                   <condition attribute='ainos_opportunity' operator='eq' value='{target.Id}'/>
                                 </filter>
                               </entity>
-                            </fetch>";
+                            </fetch>" ;
 
               EntityCollection  relations =  service.RetrieveMultiple(new FetchExpression(fetchXML));
                 if (relations.Entities.Count > 0)
